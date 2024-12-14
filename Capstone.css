@@ -1,0 +1,461 @@
+body{
+    width: 1440px;
+    height: 4433px;
+    padding-right: 48px;
+    padding-left: 48px;
+    background-color:#ECF6FE;
+
+}
+.header{
+    width: 1344px;
+    height: 80px;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #440A8F;
+    display: flex;
+    flex-direction: row;
+
+}
+h1{
+    width: 273px;
+    height: 27px;
+    font-weight: 800;
+    font-size: 42px;
+    font-family: syne;
+    line-height: 42px;
+    letter-spacing: -4%;
+    color: #381664;
+}
+.header2{
+    width: 500px;
+    height: 32px;
+    display: flex;
+    gap: 32px;
+}
+.main{
+    width: 81px;
+    height: 32px;
+    font-family: syne;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: #381664;
+}
+.header3{
+    width: 1344px;
+    height: 1152px;
+    border-bottom: 1px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 48px;
+
+}
+h4{
+    width: 1344;
+    height: 240px;
+    font-style: syne;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #381664;
+}
+img{
+    width: 1344px;
+    height: 672px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project{
+    width: 1344px;
+    height: 1191x;
+    border-bottom: 1px;
+}
+.row1{
+    width: 1344px;
+    height: 429px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    display: flex;
+}
+.img1{
+    width: 416px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project1{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+.Project11{
+    width: 416px;
+    height: 48px;
+}
+.Project12{
+    width: 416px;
+    height: 24px;
+    font-family: Familjen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project13{
+    width: 416px;
+    height: 24px;
+    font-family: Familjen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project2{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+.img2{
+    width: 419px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+
+}
+.Project21{
+    width: 416px;
+    height: 48px;
+}
+.Project22{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project23{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project3{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+.img3{
+    width: 419px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project31{
+    width: 416px;
+    height: 48px;
+
+}
+.Project32{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+
+}
+.Project33{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+
+.row2{
+    width: 1344px;
+    height: 381px;
+    padding-bottom: 48px;
+    gap: 48px;
+    display: flex;
+}
+.Project4{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+
+.img4{
+    width: 419px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project41{
+    width: 416px;
+    height: 48px;
+}
+.Project42{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project43{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+.img5{
+    width: 419px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project5{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+.Project51{
+    width: 416px;
+    height: 48px;
+}
+.Project52{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project53{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+.img6{
+    width: 419px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project6{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+.Project61{
+    width: 416px;
+    height: 48px;
+}
+.Project62{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project63{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+.row3{
+    width: 1344px;
+    height: 381px;
+    padding-bottom: 48px;
+    gap: 48px;
+    display: flex;
+}
+.img7{
+    width: 419px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project7{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+.Project71{
+    width: 416px;
+    height: 48px;
+}
+.Project72{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project73{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project8{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+.img8{
+    width: 419px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project81{
+    width: 416px;
+    height: 48px;
+}
+.Project82{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project83{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project9{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+}
+.img9{
+    width: 419px;
+    height: 277px;
+    border-radius: 22px;
+    border: 1px solid #440A8F;
+}
+.Project91{
+    width: 416px;
+    height: 48px;
+
+}
+.Project92{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #381664;
+}
+.Project93{
+    width: 416px;
+    height: 24px;
+    font-family: Familijen Grotesk;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #381664;
+}
+.paragraph{
+    width: 1344px;
+    height: 250px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 48px;
+    background-color: #ECF6FE;
+    display: flex;
+}
+.spacer{
+    width: 648px;
+    height: 154px;
+}
+.text{
+    width: 648px;
+    height: 154px;
+    font-family: Familijen Grotesk;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.5%;
+    color: #381664;
+}
+.landing-page{
+    width: 1344px;
+    height: 912px;
+    border-bottom: 1px;
+    padding-bottom: 48px;
+    background-color: #ECF6FE;
+}
+.content{
+    width: 1344px;
+    height: 864px;
+    padding-top: 96px;
+    background-color: #ECF6FE;
+}
+.bg{
+    background: linear-gradient(#ECF6FEB2 70%, #440A8F0B 4.2%);
+    width: 1536px;
+    height: 864px;
+}
+.touch{
+    width: 1344px;
+    height: 120px;
+    font-family: Syne;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2%;
+    text-align: center;
+}
+.divider{
+    width: 1536px;
+    border: 1px solid #440A8F;
+    align-items: center;
+}
+.img10{
+    width: 1440px;
+    height: 680px;
+}
