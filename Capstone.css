@@ -462,7 +462,6 @@ h4{
     line-height: 120px;
     letter-spacing: -2%;
     text-align: center;
-    
 }
 .Portfolio-About{
     width: 1344px;
@@ -573,6 +572,57 @@ h4{
     line-height: 24px;
     color: #381664;
 }
+.img1:hover{
+    transform: rotate(-5deg) scale(1.06);
+}
+.img2:hover{
+    transform: rotate(5deg) scale(1.06);
+}
+.img3:hover{
+    transform: rotate(-5deg) scale(1.06);
+}
+.img4:hover{
+    transform: rotate(5deg) scale(1.06);
+}
+.img5:hover{
+    transform: rotate(-5deg) scale(1.06);
+}
+.img6:hover{
+    transform: rotate(5deg) scale(1.06);
+}
+.img7:hover{
+    transform: rotate(-5deg) scale(1.06);
+}
+.img8:hover{
+    transform: rotate(5deg) scale(1.06);
+}
+.img9:hover{
+    transform: rotate(-5deg) scale(1.06);
+    
+}
+.main:hover{
+    background-color: rgb(235, 235, 50);
+    border-radius: 12px;
+    padding: 5px;
+}
+.touch:hover{
+    animation: rotate 2.1s ease;
+    animation-timing-function: linear;
+
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
 @media (max-width:768px){
     body{
         width: 768px;
@@ -682,6 +732,20 @@ h4{
     .Project9{
         width: 400px;
     }
+    .paragraph{
+        width: 786px;
+
+    }
+    .img10{
+        width: 786px;
+    }
+    .touch{
+        width: 786px;
+
+
+    }
+
+
 
     
 
@@ -689,3 +753,30 @@ h4{
 
     
 }
+
+
+/* @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .projects {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .project-details h1 {
+        font-size: 1.2rem;
+    }
+
+    .project-details h2 {
+        font-size: 1rem;
+    }
+} */
