@@ -90,6 +90,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 }
 .Project1{
     width: 416px;
@@ -128,6 +131,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 
 }
 .Project21{
@@ -162,6 +168,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 }
 .Project31{
     width: 416px;
@@ -206,6 +215,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 }
 .Project41{
     width: 416px;
@@ -234,6 +246,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 }
 .Project5{
     width: 416px;
@@ -267,6 +282,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 }
 .Project6{
     width: 416px;
@@ -307,6 +325,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 }
 .Project7{
     width: 416px;
@@ -345,6 +366,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 }
 .Project81{
     width: 416px;
@@ -378,6 +402,9 @@ h4{
     height: 277px;
     border-radius: 22px;
     border: 1px solid #440A8F;
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+-moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
 }
 .Project91{
     width: 416px;
@@ -605,6 +632,12 @@ h4{
     border-radius: 12px;
     padding: 5px;
 }
+.mainimg{
+    box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+    -moz-box-shadow: 18px 14px 31px 5px rgba(0,0,0,0.71);
+}
+
 .touch:hover{
     animation: rotate 2.1s ease;
     animation-timing-function: linear;
@@ -612,13 +645,19 @@ h4{
 }
 @keyframes rotate {
     0%{
-        transform: rotate(0deg);
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.5);
     }
     50%{
-        transform: rotate(180deg);
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.5);
     }
     100%{
-        transform: rotate(360deg);
+        transform: scale(1);
     }
 }
 
